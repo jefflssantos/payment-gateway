@@ -1,7 +1,6 @@
 # Golang Payment Gateway
 
 ![continuous integration](https://github.com/jefflssantos/payment-gateway/actions/workflows/continuous_integration.yml/badge.svg)
-[![License](http://poser.pugx.org/jefflssantos/payment-gateway/license)](https://packagist.org/packages/jefflssantos/payment-gateway)
 
 ## Golang Payment Gateway
 
