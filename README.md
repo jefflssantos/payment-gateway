@@ -13,17 +13,15 @@ Developed for study purposes only.
 ```bash
 git clone git@github.com:jefflssantos/payment-gateway.git
 ```
-### Start docker (docker compose must be intalled) and install composer dependencies
+### Start docker (docker compose must be intalled)
 ```bash
-docker run --rm \
-    -u "$(id -u):$(id -g)" \
-    -v $(pwd):/var/www/html \
-    -w /var/www/html \
-    laravelsail/php81-composer:latest \
-    composer install --ignore-platform-reqs
+docker compose up -d
+```
+### Now you are able to run the tests
+```bash
+docker compose exec -it gateway go test -v ./...
 ```
 
-### Copy the ```.env.example```  to  ```.env```
-```bash
-cp .env.example .env
-```
+## 📖 License
+
+Golang Payment Gateway is an open-sourced software licensed under the [MIT license](LICENSE.md).
