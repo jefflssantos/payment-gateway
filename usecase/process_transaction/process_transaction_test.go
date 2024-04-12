@@ -5,8 +5,8 @@ import (
 	"time"
 
 	"github.com/golang/mock/gomock"
-	"github.com/jefflssantos/imersao/gateway/domain/entity"
-	mock_repository "github.com/jefflssantos/imersao/gateway/domain/repository/mock"
+	"github.com/jefflssantos/payment-gateway/domain/entity"
+	mock_repository "github.com/jefflssantos/payment-gateway/domain/repository/mock"
 	"github.com/stretchr/testify/assert"
 )
 

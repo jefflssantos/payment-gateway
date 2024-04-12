@@ -1,8 +1,8 @@
 package process_transaction
 
 import (
-	"github.com/jefflssantos/imersao/gateway/domain/entity"
-	"github.com/jefflssantos/imersao/gateway/domain/repository"
+	"github.com/jefflssantos/payment-gateway/domain/entity"
+	"github.com/jefflssantos/payment-gateway/domain/repository"
 )
 
 type ProcessTransaction struct {
