@@ -2,8 +2,6 @@
 
 ![continuous integration](https://github.com/jefflssantos/payment-gateway/actions/workflows/continuous_integration.yml/badge.svg)
 
-## Golang Payment Gateway
-
 Developed for study purposes only.
 
 ## Getting Started
